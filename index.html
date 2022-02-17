@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar h-nav-resp">
+    <div class="container">
+    <div class="section1 v-class-resp"><li><a href="#home">HOME</a></li></div><br>
+    <div class="section2 v-class-resp"> <li><a href="#about">ABOUT</a></li></div><br>
+    <div class="section3 v-class-resp"> <li><a href="#services">SERVICES</a></li></div><br>
+    <div class="section4 v-class-resp"><li><a href="#contact us">CONTACT US</a></li></div><br>
+    <div class="section5">
+        <div class="sectionc v-class-resp">
+        <input type="text">
+        <button type="button">SEARCH</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+            </div>
+        </nav>
+        <div class="containera">
+           <p><h2 style="font-size: 50px;">CHARACTER OF CITY</h2>
+     <div class="para1">
+       Dubai is a city of skyscrapers, ports, and beaches, where big business takes place alongside sun-seeking tourism. Because of its large expatriate population, it feels like a Middle Eastern melting pot, and the atmosphere is generally tolerant. 
+           Religious affiliations are not a prominent aspect of city life. Islam is the majority religion, but churches and Hindu temples coexist with Dubai’s mosques.
+           Dubai is a relatively crime-free place where administrative efficiency and openness to business have encouraged astounding growth. However, criticism of Dubai’s authoritarian government and ruling elite is not tolerated, 
+           and there persists an atmosphere of discreet corruption.
+        <img src="https://cdn.britannica.com/74/167874-050-994361EB/Sheikh-Zayed-Road-Dubai-United-Arab-Emirates.jpg?w=690&h=388&c=crop" style="height: 200px;" width="200px";>
+     </div></p>
+     <br>
+     <br>
+     <br> 
+     <h2 style="font-size: 50px;">LANDSCAPE</h2>
+     <p><div class="para2">
+        <p>The western area of Dubai benefits from small stretches of sandy beaches, which have helped to catalyze the city’s tourism industry. Dubai’s rulers have sought to increase the city’s limited seafronts, and, in the absence of natural offshore islands, developers were encouraged to construct giant man-made islands off the coast of the city. The most famous of these is Palm Jumeirah, which has the shape of a palm tree. Others include the “World” islands, a cluster of small islands positioned to resemble a world map when viewed from above.
+    </p>
+        <img src="https://cdn.britannica.com/27/178627-050-AF162D33/Palm-Jumeirah-Dubai-United-Arab-Emirates-International-2005.jpg?w=690&h=388&c=crop" style="height: 200px; width: 200px;">
+    </div></p>
+    <br>
+     <br>
+     <br> 
+     <p><h2 style="font-size: 50px;">CITY SITE AND LAYOUT</h2>
+    <div class="para3">
+    Dubai straddles a natural inlet called Dubai Creek on the southern shores of the Persian Gulf. For more than a century, the area was Dubai’s centre, because of the early city’s reliance on fishing, pearl diving, and maritime trade. Lining the creek are the oldest buildings in Dubai, most of which date from the 1960s and are rarely more than two stories in height. In the Bastakiyyah quarter, on the western shore of the creek, some much older buildings have been restored, and many of these feature the distinctive wind tower design that was imported by Persian merchants early in the 20th century.</p>
+    <img src="https://cdn.britannica.com/15/189715-050-4310222B/Dubai-United-Arab-Emirates-Burj-Khalifa-top.jpg?w=690&h=388&c=crop" style="height: 200px; width: 200px;">
+    </div>
+    </div>
+</body>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    }
+            .container{
+            display: flex;
+            
+        }
+        .burger{
+        position:absolute;
+        top: 15px;
+        right: 5%;
+        cursor: pointer;
+        display: none;
+    }
+        .navbar{
+            position: sticky;
+            top: 0px;
+            
+            background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxg9poRrWm1Vhm552O-LRhNy8gqhEd3tsmnQ&usqp=CAU');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            color: white;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .sectionb{display: flex;}
+        .section1{
+            width: 20%;
+            color: white;
+            text-decoration: none;
+            list-style: none;
+        }
+        .section1 a{text-decoration: none; color: white;}
+        .section2{
+            width: 20%;
+            color: white;
+            text-decoration: none;
+            list-style: none;
+        }.section2 a{text-decoration: none; color: white;}
+        .section3{
+            width: 20%;
+            color: white;
+            text-decoration: none;
+            list-style: none;
+        }.section3 a{text-decoration: none; color: white;}
+        .section4{
+            width: 20%;
+            text-decoration-color: white;
+            list-style: none;
+            
+        }.section4 a{text-decoration: none; color: white;}
+        .section5{
+            width:20%;
+            justify-content: center;
+            align-items: right;display: flex;
+        }.section5 a{text-decoration: none; color: white;}
+    
+        .para1{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .para2{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    }
+    .para3{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .containera{
+    margin-left: 200px;
+    margin-right: 200px;
+    }
+    
+    
+    .line{
+        width: 33px;
+        background-color: white;
+        margin:3px 3px;
+        height: 4px;
+    }
+        @media only screen and (max-width: 1140px){
+         .container{
+             display: flex;
+             flex-direction: column;   
+         }
+         .burger{
+        position:absolute;
+        top: 15px;
+        right: 5%;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        display: block;
+    }
+         .section1 a{
+             width: 100%;
+             text-align: center;
+             text-decoration: none;
+             list-style: none;
+         }
+         .section1{width:100%;
+        text-align: center;}
+         
+         .section2{
+            width: 100%;
+            text-align: center;
+         }
+        .section3{
+            width: 100%;
+            text-align: center;
+        }
+        .section4{
+            width: 100%;
+            text-align: center;
+        }
+        .section5{width: 100%;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+        }
+        
+        .containera{
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+        .para1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+    .para2{
+        text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .para3{text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .para4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    .navbar{
+        position: relative;
+        width: 100%;
+    }}
+</style>
+</html>
